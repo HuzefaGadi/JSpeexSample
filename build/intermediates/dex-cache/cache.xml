@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/libs/acra-4.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="60a854db6e9445f56efc72bfb3da39f583eb6e89">
+        <dex dex="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/build/intermediates/pre-dexed/debug/acra-4.6.1-37142e600e0ea76ce2bc272f4f9b52ae4a3f3351.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/libs/libs.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f4c2c9f2407bd4e20b140f8e2efe2162e7119aa1">
+        <dex dex="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/build/intermediates/pre-dexed/debug/libs-4370038d9049a3c25e9c05c199b397f4d9b6a325.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/libs/jspeex.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fd8184cfea4c5aa4e3c14bb3d21fd83539d6f47">
+        <dex dex="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/build/intermediates/pre-dexed/debug/jspeex-23a0725a1f304f2b59abcdd464d854a30610b273.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/libs/fmp.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f6225cc05971bf0940a8db0bab12fa9439c3bce7">
+        <dex dex="/Users/Rashida/Downloads/JSpeexSample_0.02/JSpeexSample/app/build/intermediates/pre-dexed/debug/fmp-f6b61f1a7f5ed5538b728d566850bf43d867053b.jar" />
+    </item>
+
+</items>

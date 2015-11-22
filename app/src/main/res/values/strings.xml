@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloMe</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="crash_toast_text">Crash</string>
+    
+    
+    <!-- Mediaplayer messages -->
+	<string name="buffering_message">Buffering. Please wait&#8230;</string>
+    <string name="playback_failed">Sorry, the player does not support this type of media file.</string>
+    <string name="service_start_error_title">Playback problem</string>
+    <string name="service_start_error_msg">Sorry, the media could not be played.</string>
+	
+    <string name="hour">1 hour</string>
+    <string name="hours">hours</string>
+    <string name="minute">"1 minute"</string>
+    <string name="minutes">minutes</string>
+    
+    <!-- Do not translate. Duration format for duration < 1 hour -->
+    <string translatable="false" name="durationformatshort">short</string>
+    <!-- Do not translate. Duration format for duration >= 1 hour -->
+    <string translatable="false" name="durationformatlong">long</string>
+    
+    
+    
+
+</resources>

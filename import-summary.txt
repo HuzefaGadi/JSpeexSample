@@ -1,0 +1,65 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\acra-4.6.1.jar => app\libs\acra-4.6.1.jar
+* libs\armeabi-v7a\libavcodec.so => app\src\main\jniLibs\armeabi-v7a\libavcodec.so
+* libs\armeabi-v7a\libavformat.so => app\src\main\jniLibs\armeabi-v7a\libavformat.so
+* libs\armeabi-v7a\libavutil.so => app\src\main\jniLibs\armeabi-v7a\libavutil.so
+* libs\armeabi-v7a\libffmpeg_mediaplayer_jni.so => app\src\main\jniLibs\armeabi-v7a\libffmpeg_mediaplayer_jni.so
+* libs\armeabi-v7a\libswresample.so => app\src\main\jniLibs\armeabi-v7a\libswresample.so
+* libs\armeabi-v7a\libswscale.so => app\src\main\jniLibs\armeabi-v7a\libswscale.so
+* libs\armeabi\libavcodec.so => app\src\main\jniLibs\armeabi\libavcodec.so
+* libs\armeabi\libavformat.so => app\src\main\jniLibs\armeabi\libavformat.so
+* libs\armeabi\libavutil.so => app\src\main\jniLibs\armeabi\libavutil.so
+* libs\armeabi\libffmpeg_mediaplayer_jni.so => app\src\main\jniLibs\armeabi\libffmpeg_mediaplayer_jni.so
+* libs\armeabi\libswresample.so => app\src\main\jniLibs\armeabi\libswresample.so
+* libs\armeabi\libswscale.so => app\src\main\jniLibs\armeabi\libswscale.so
+* libs\fmp.jar => app\libs\fmp.jar
+* libs\jspeex.jar => app\libs\jspeex.jar
+* libs\libs.jar => app\libs\libs.jar
+* libs\mips\libavcodec.so => app\src\main\jniLibs\mips\libavcodec.so
+* libs\mips\libavformat.so => app\src\main\jniLibs\mips\libavformat.so
+* libs\mips\libavutil.so => app\src\main\jniLibs\mips\libavutil.so
+* libs\mips\libffmpeg_mediaplayer_jni.so => app\src\main\jniLibs\mips\libffmpeg_mediaplayer_jni.so
+* libs\mips\libswresample.so => app\src\main\jniLibs\mips\libswresample.so
+* libs\mips\libswscale.so => app\src\main\jniLibs\mips\libswscale.so
+* libs\x86\libavcodec.so => app\src\main\jniLibs\x86\libavcodec.so
+* libs\x86\libavformat.so => app\src\main\jniLibs\x86\libavformat.so
+* libs\x86\libavutil.so => app\src\main\jniLibs\x86\libavutil.so
+* libs\x86\libffmpeg_mediaplayer_jni.so => app\src\main\jniLibs\x86\libffmpeg_mediaplayer_jni.so
+* libs\x86\libswresample.so => app\src\main\jniLibs\x86\libswresample.so
+* libs\x86\libswscale.so => app\src\main\jniLibs\x86\libswscale.so
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\songu\recordvoice\music\IMediaPlaybackService.aidl => app\src\main\aidl\com\songu\recordvoice\music\IMediaPlaybackService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

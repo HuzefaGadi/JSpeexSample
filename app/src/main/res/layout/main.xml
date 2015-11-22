@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="#ffffff"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:clickable="false">
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="center_horizontal" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:max="140"
+        android:progressDrawable="@drawable/progressbar" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="153dp"
+        android:layout_marginTop="48dp"
+        android:text="Stop"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uploaded 0 times"
+        android:padding="8dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
